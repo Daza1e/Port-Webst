@@ -1,0 +1,66 @@
+/* Import Section */
+@import url('https://googleapis.com');
+/*  */
+
+
+
+/* Key Frames Section */
+    @keyframes blink {
+        50%{
+            opacity: 0;
+        }
+    }
+
+/*  */
+
+
+body{
+    font-family: 'Noto Sans Mono', monospace;
+    background-color: black;
+    font-size: 15px;
+    color: white;
+}
+
+.main-cont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.term-box{
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 7%;
+}
+
+.input-line{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#comm-in{
+    background: transparent;
+    margin: 0;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 15px;
+    color: white;
+}
+
+.cursor{
+    display: inline-block;
+    position: relative;
+    width:7px;
+    height: 19px;
+    background: white;
+
+    animation: blink 1s step-end infinite;
+
+}
+
+
