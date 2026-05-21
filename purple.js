@@ -19,7 +19,7 @@ simulation games.`,
   "help" :[
     "uname - Prints Username and Alias",
     "about - Prints Details of the System User",
-    "help  - Prints this help to the screen",
+    "help&ensp; - Prints this help to the screen",
     "works - Prints Information of Works done",
     "loves - Prints Passion of System User",
     "trace - Prints the experience of the System User",
@@ -27,7 +27,7 @@ simulation games.`,
     "touch - [Can only be run as sudo]",
     "medal - Recognition from Other systems",
     "certs - Performance benchmarks of System",
-    "sudo  - Enables power beyond one can imagine"
+    "sudo&ensp; - Enables power beyond one can imagine"
   ].join('<br>'),
   "works":[
     "<h1>Simulated Threat Delivery Toolkit</h1>",
@@ -49,8 +49,8 @@ simulation games.`,
     "<h1>Server & Network Infrastructure Admin</h1>",
     "<h3>Independent | 2023 - Present</h3>",
     "Architected and administered a high-availability Debian Linux server environment.Engineered secure network routing across 8+ custom domains, managing complex DNS configurations and SSL/TLS certificates. Secured inbound web traffic by implementing Nginx reverse proxies and Cloudflare Zero Trust tunnels.",
-    "<b>Clients : <a href=\"https://dhanrajdecors.com\" rel=\"external\">Dhanraj decors</a>",
-    "<a href=\"https://xenopent.tech\" rel=\"external\">Xenopent</a><b>",
+    "<b>Clients : <a href=\"https://dhanrajdecors.com\" target=\"_blank\" rel=\"external\">Dhanraj decors</a>",
+    "<a href=\"https://xenopent.tech\" target=\"_blank\" rel=\"external\">Xenopent</a><b>",
     "<br>",
     "<h1>Cybersecurity Intern</h1>",
     "<h3>ASSR Emphorium | Jun 2025 - Jul 2025</h3>",
@@ -59,14 +59,14 @@ simulation games.`,
   "reach":[
     "Email    - me@vijayrajanmanraj.dev",
     "Phone    - +91 638 168 2004",
-    "Github   - <a href=\"https://github.com/vorsv\">VorsvA Github</a>",
-    "Linkedin - <a href=\"https://linkedin.com/in/vorsv\">VorsvA Linkedin</a>"
+    "Github   - <a href=\"https://github.com/vorsv\" target=\"_blank\">VorsvA Github</a>",
+    "Linkedin - <a href=\"https://linkedin.com/in/vorsv\" target=\"_blank\">VorsvA Linkedin</a>"
   ].join('<br>'),
   "touch":[
     "Email    - me@vijayrajanmanraj.dev",
     "Phone    - +91 638 168 2004",
-    "Github   - <a href=\"https://github.com/vorsv\">VorsvA Github</a>",
-    "Linkedin - <a href=\"https://linkedin.com/in/vorsv\">VorsvA Linkedin</a>"
+    "Github   - <a href=\"https://github.com/vorsv\" target=\"_blank\">VorsvA Github</a>",
+    "Linkedin - <a href=\"https://linkedin.com/in/vorsv\" target=\"_blank\">VorsvA Linkedin</a>"
   ].join('<br>'),
   "honor":[
     "<h1>ISACA Foundation Scholar</h1>",
