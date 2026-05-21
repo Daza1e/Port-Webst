@@ -6,9 +6,9 @@ const buzz = "root@VorsvA:~/"
 const opts = ["uname","about","help","honor","certs","works","loves","trace","reach","touch"]
 
 const data = {
-  "uname":"VorsvA aka Vijay Rajan Manraj",
+  "uname":"<span class=u1>VorsvA</span> aka <span class=u1>Vijay Rajan Manraj</span>",
   "about":`I am a Computer Science Engineering student specializing\
-in Cybersecurity. I am driven by the challenge of securing \
+ in Cybersecurity. I am driven by the challenge of securing \
 complex systems and exploring emerging attack vectors.<br><br>\
 My passion for technology started early with robotics and \
 programming. Today, I thrive in competitive, dynamic environments \
