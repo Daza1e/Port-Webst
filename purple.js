@@ -84,7 +84,6 @@ simulation games.`,
 }
 
 document.addEventListener("keydown", (e)=>{
-
     if (e.key === "Backspace"){
         curr = curr.slice(0, -1);
     }
@@ -93,11 +92,10 @@ document.addEventListener("keydown", (e)=>{
         else window.alert("Max char Limit reaeched")
     }
     else if(e.key === "Enter"){
-        if (curr in opts) 
-          out.innerhtml += buzz + curr.toLowerCase() + "/#<br>" + data[curr];
+        if (opts.includes(curr)) 
+          out.innerHTML += "<br>" + buzz + curr.toLowerCase() + "/#<br>" + data[curr];
         else
-          out.innerhtml += buzz + curr.toLowerCase() + "/#<br>Invail Command See help;
-          
+          out.innerHTML +="<br>" + buzz + curr.toLowerCase() + "/#<br>Invaild Command See help";
         curr = "";
     }
     inp.textContent = curr;
