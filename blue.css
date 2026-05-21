@@ -16,7 +16,22 @@
 
 body{
     font-family: 'Noto Sans Mono', monospace;
+    /* background-color: black; */
+    margin: 0;
+    min-height: 100vh;
+
     background-color: black;
+
+    background-image:
+      repeating-linear-gradient(
+        -45deg,
+        rgba(255,255,255,0.10) 0px,
+        rgba(255,255,255,0.07) 1px,
+        transparent 1px,
+        transparent 10px
+      );
+
+    color: white;
     font-size: 15px;
     color: white;
 }
@@ -31,9 +46,18 @@ body{
 .term-box{
     width: 600px;
     height: 500px;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid white;
+    background-color: black;
     border-radius: 7%;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none; /* For Edge */
+    overflow-x: hidden;
+}
+
+.term-box::-webkit-scrollbar{
+    display: none; /* For Chrome and Safari */
 }
 
 .input-line{
@@ -62,4 +86,41 @@ body{
     animation: blink 1s step-end infinite;
 }
 
+/* Task Bar of Terminal */
+.term-ctrl{
+    display: flex;
+    width: 600px;
+    height: 30px;
+    margin-bottom: 10px;
+    /* background-color: grey; */
+    border-bottom: 1px solid white;
+    border-radius: 2px;
+}
+.red,.yellow,.green{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+}
 
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+/*  */
+
+/* JS Div's Customization */
+.opt{
+    color:green;
+}
+.u1{
+    font-weight: bold;
+    color: thistle;
+}
+/*  */
